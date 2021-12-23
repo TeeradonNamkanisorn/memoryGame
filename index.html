@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Memory Game</h1>
+        <div class='instructionContainer'></div>
+        <div id = 'scoreBoard'>
+            Score Board <br>
+            <div id='winDisplay' class='scoreDisplay'>
+                Wins:
+                <span id='winCount'>0</span>
+            </div>
+            <div id='lossDisplay' class='scoreDisplay'>
+                Losses: 
+                <span id='lossCount'>0</span>
+            </div>
+            <div id='winrateDisplay' class='scoreDisplay'>
+                Winrate: 
+                <span id='wrPercent'>100%</span>
+            </div>
+        </div>
+        <div id="playGround"></div>
+        <div id='modalBoxContainer'>
+            <div id="blockerModalZone">
+                <div id="modalBox">
+                Remember the red squares. Click on their locations once the game starts.
+                Press [space] to start the game.
+            </div></div>
+        </div>
+        <button id='startButton'>START</button>
+        <button id='resetButt'>RESET SCORE</buttom>
+        <script src='script.js'></script>
+    </body>
+</html>
