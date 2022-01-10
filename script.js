@@ -11,7 +11,7 @@ let clickAllowed = 0;
 let inPrepPhase = false;
 let squareDim = 5;
 let numberOfGrid = squareDim ** 2;
-const numberOfColored = 3;
+const numberOfColored = 5;
 
 function showStartDialog() {
     document.getElementById('modalBoxContainer').style.display = 'block';
